@@ -3,6 +3,7 @@ package me.cameronwhyte.learning;
 public class Main {
 
     public static void main(String[] args) {
+
         Integer();
         Byte();
         Short();
@@ -35,6 +36,7 @@ public class Main {
     }
 
     private static void Byte() {
+
         byte myValue = 127;//byte - a primitive type, set a data type
 
         byte myMinByteValue = Byte.MIN_VALUE;//Byte - Perform actions on an byte
@@ -44,6 +46,7 @@ public class Main {
     }
 
     private static void Short() {
+
         short myValue = 32767;//short - a primitive type, set a data type
 
         short myMinShortValue = Short.MIN_VALUE;//Short - Perform actions on an short
@@ -53,6 +56,7 @@ public class Main {
     }
 
     private static void Long() {
+
         long myValue = 9223372036854775807L;//long - a primitive type, set a data type
 
         long myMinLongValue = Long.MIN_VALUE;//long - Perform actions on an long
