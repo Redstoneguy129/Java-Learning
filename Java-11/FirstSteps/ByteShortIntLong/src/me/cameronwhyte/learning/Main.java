@@ -43,6 +43,8 @@ public class Main {
         byte myMaxByteValue = Byte.MAX_VALUE;
         System.out.println("Byte Minimum Value = " + myMinByteValue);
         System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);//Casting is to use a data type as if it is another, or you can convert it.
     }
 
     private static void Short() {
@@ -53,6 +55,8 @@ public class Main {
         short myMaxShortValue = Short.MAX_VALUE;
         System.out.println("Short Minimum Value = " + myMinShortValue);
         System.out.println("Short Maximum Value = " + myMaxShortValue);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);//Casting is to use a data type as if it is another, or you can convert it.
     }
 
     private static void Long() {
@@ -63,5 +67,7 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
+
+        long myNewLongValue = myMinLongValue / 2;//Casting is to use a data type as if it is another, or you can convert it.
     }
 }
